@@ -1,0 +1,124 @@
+/**
+
+*/
+
+#header_quick, #header_search, .header-list {
+    display: none !important;
+}
+
+body.adminproducts .header-toolbar .toolbar-icons {
+    display: none !important;
+}
+
+#header #quick-access-container, #header #header-search-container, #header .header-right > div {
+    display: none !important;
+} 
+
+#header div#header-employee-container {
+     display: block !important;
+    margin-top: 20px;
+}
+
+#header .header-right, #header_employee_box {
+    position: absolute;
+    right: 0px;
+    
+}
+
+ #header_employee_box {
+     margin-top: 10px;
+}
+
+#header div#header-employee-container .dropdown-menu > a, #header div#header-employee-container .dropdown-menu > .divider, #header_employee_box .ps_mbo, #header_employee_box li a[target=_blank] {
+    display: none !important;
+} 
+
+#header div#header-employee-container .dropdown-menu > a:last-child {
+    display: block !important;
+}
+
+body.adminlotgooglematch #table-category .text-right {
+     display: none !important;
+}
+
+
+body.adminlotexportergoogle button[data-id=filter_feature], body.adminlotexportergoogle button[data-id=filter_attribute] {
+     display: none !important;
+}
+
+body.adminmanufacturers {
+    visibility: hidden !important;
+}
+
+
+body.adminsuppliers #main-div .alert.alert-info {
+     display: none !important;
+}
+
+body.adminsuppliers #supplier-grid-actions-button {
+     display: none !important;
+}
+
+.btn-help  {
+     display: none !important;
+}
+
+body.adminsuppliers form .form-group {
+    display: none !important;
+}
+
+body.adminsuppliers form .card-body .form-group {
+    display: flex !important;
+}
+
+.main-menu #subtab-AdminCatalog .link-leveltwo {
+    display: none !important;
+}
+
+.main-menu #subtab-AdminCatalog #subtab-AdminProducts, .main-menu #subtab-AdminCatalog #subtab-AdminCategories {
+    display: block !important;
+}
+
+body.admincategories .card-kpis {
+    display: none !important;
+}
+
+.main-menu li i {
+    visibility: hidden !important;
+}
+
+#nav-sidebar .menu-collapse {
+    display: none;
+}
+
+#shop_version, #header_logo {
+    display: none !important;
+}
+
+#header_logo {
+    background: none !important;
+     font-size: 32px;
+    color: #fff;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+#header_logo.ready {
+    display: flex !important;
+          
+}
+
+
+nav ul.main-menu > li {
+    display: none !important;
+}
+
+#subtab-AdminSuppliers,  #subtab-AdminCatalog, #subtab-AdminLotExporterGoogle, #subtab-AdminLotGoogleMatch {
+    display: block !important;
+}
+
+
+body.adminemployees #head_tabs, body.adminemployees ol.breadcrumb, body.adminemployees #main-div .card-header, body.adminemployees .form-group.row.select-widget {
+    display: none !important;
+}
+

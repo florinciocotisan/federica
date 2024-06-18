@@ -1,0 +1,79 @@
+[28-May-2024 00:06:24 Europe/Bucharest] PHP Deprecated:  The hook "createAccount" is deprecated, please use "actionCustomerAccountAdd" instead in module "statsdata". in /home/r118530wood/federica.ecomdoo.eu/classes/Hook.php on line 921
+[05-Jun-2024 23:01:38 Europe/Bucharest] PHP Warning:  Undefined array key "SERVER_SIGNATURE" in /home/r118530wood/federica.ecomdoo.eu/test.php on line 8
+[17-Jun-2024 21:30:53 Europe/Bucharest] PHP Deprecated:  The hook "createAccount" is deprecated, please use "actionCustomerAccountAdd" instead in module "statsdata". in /home/r118530wood/federica.ecomdoo.eu/classes/Hook.php on line 921
+[17-Jun-2024 21:40:18 Europe/Bucharest] PHP Deprecated:  The hook "createAccount" is deprecated, please use "actionCustomerAccountAdd" instead in module "statsdata". in /home/r118530wood/federica.ecomdoo.eu/classes/Hook.php on line 921
+[17-Jun-2024 22:29:03 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to undefined function strpost() in /home/r118530wood/federica.ecomdoo.eu/test.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/r118530wood/federica.ecomdoo.eu/test.php on line 6
+[17-Jun-2024 22:30:08 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Undefined constant "_PS_ROOT_DIR_" in /home/r118530wood/federica.ecomdoo.eu/test.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/r118530wood/federica.ecomdoo.eu/test.php on line 3
+[17-Jun-2024 22:30:20 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Undefined constant "_PS_ROOT_DIR_" in /home/r118530wood/federica.ecomdoo.eu/test.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/r118530wood/federica.ecomdoo.eu/test.php on line 3
+[17-Jun-2024 22:30:22 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Undefined constant "_PS_ROOT_DIR_" in /home/r118530wood/federica.ecomdoo.eu/test.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/r118530wood/federica.ecomdoo.eu/test.php on line 3
+[17-Jun-2024 22:30:22 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Undefined constant "_PS_ROOT_DIR_" in /home/r118530wood/federica.ecomdoo.eu/test.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/r118530wood/federica.ecomdoo.eu/test.php on line 3
+[17-Jun-2024 22:30:38 Europe/Bucharest] PHP Warning:  include(config.inc.php): Failed to open stream: No such file or directory in /home/r118530wood/federica.ecomdoo.eu/test.php on line 2
+[17-Jun-2024 22:30:38 Europe/Bucharest] PHP Warning:  include(): Failed opening 'config.inc.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/r118530wood/federica.ecomdoo.eu/test.php on line 2
+[17-Jun-2024 22:30:38 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Undefined constant "_PS_ROOT_DIR_" in /home/r118530wood/federica.ecomdoo.eu/test.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/r118530wood/federica.ecomdoo.eu/test.php on line 4
+[17-Jun-2024 22:30:40 Europe/Bucharest] PHP Warning:  include(config.inc.php): Failed to open stream: No such file or directory in /home/r118530wood/federica.ecomdoo.eu/test.php on line 2
+[17-Jun-2024 22:30:40 Europe/Bucharest] PHP Warning:  include(): Failed opening 'config.inc.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/r118530wood/federica.ecomdoo.eu/test.php on line 2
+[17-Jun-2024 22:30:40 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Undefined constant "_PS_ROOT_DIR_" in /home/r118530wood/federica.ecomdoo.eu/test.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/r118530wood/federica.ecomdoo.eu/test.php on line 4
+[17-Jun-2024 22:30:40 Europe/Bucharest] PHP Warning:  include(config.inc.php): Failed to open stream: No such file or directory in /home/r118530wood/federica.ecomdoo.eu/test.php on line 2
+[17-Jun-2024 22:30:40 Europe/Bucharest] PHP Warning:  include(): Failed opening 'config.inc.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/r118530wood/federica.ecomdoo.eu/test.php on line 2
+[17-Jun-2024 22:30:40 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Undefined constant "_PS_ROOT_DIR_" in /home/r118530wood/federica.ecomdoo.eu/test.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/r118530wood/federica.ecomdoo.eu/test.php on line 4
+[17-Jun-2024 23:22:27 Europe/Bucharest] PHP Warning:  Undefined array key 0 in /home/r118530wood/federica.ecomdoo.eu/modules/lot_exportergoogle/controllers/front/ajax.php on line 113
+[17-Jun-2024 23:28:12 Europe/Bucharest] PHP Warning:  Undefined array key 0 in /home/r118530wood/federica.ecomdoo.eu/modules/lot_exportergoogle/controllers/front/ajax.php on line 76
+[17-Jun-2024 23:28:13 Europe/Bucharest] PHP Warning:  Array to string conversion in /home/r118530wood/federica.ecomdoo.eu/classes/db/DbPDO.php on line 297
+[17-Jun-2024 23:28:13 Europe/Bucharest] PHP Fatal error:  Uncaught TypeError: strip_tags(): Argument #1 ($string) must be of type string, array given in /home/r118530wood/federica.ecomdoo.eu/classes/db/Db.php:795
+Stack trace:
+#0 /home/r118530wood/federica.ecomdoo.eu/classes/db/Db.php(795): strip_tags()
+#1 /home/r118530wood/federica.ecomdoo.eu/config/alias.php(47): DbCore->escape()
+#2 /home/r118530wood/federica.ecomdoo.eu/modules/lot_exportergoogle/LotFeed.php(291): pSQL()
+#3 /home/r118530wood/federica.ecomdoo.eu/modules/lot_exportergoogle/LotFeed.php(450): LotFeed->getproductpath()
+#4 /home/r118530wood/federica.ecomdoo.eu/modules/lot_exportergoogle/LotFeed.php(382): LotFeed->generateCodeXML()
+#5 /home/r118530wood/federica.ecomdoo.eu/modules/lot_exportergoogle/controllers/front/ajax2.php(147): LotFeed->generateproductcode()
+#6 /home/r118530wood/federica.ecomdoo.eu/classes/controller/Controller.php(319): Lot_ExporterGoogleAjax2ModuleFrontController->initContent()
+#7 /home/r118530wood/federica.ecomdoo.eu/classes/Dispatcher.php(510): ControllerCore->run()
+#8 /home/r118530wood/federica.ecomdoo.eu/index.php(28): DispatcherCore->dispatch()
+#9 {main}
+  thrown in /home/r118530wood/federica.ecomdoo.eu/classes/db/Db.php on line 795
+[17-Jun-2024 23:29:21 Europe/Bucharest] PHP Warning:  Undefined array key 0 in /home/r118530wood/federica.ecomdoo.eu/modules/lot_exportergoogle/controllers/front/ajax.php on line 76
+[17-Jun-2024 23:29:22 Europe/Bucharest] PHP Warning:  Array to string conversion in /home/r118530wood/federica.ecomdoo.eu/classes/db/DbPDO.php on line 297
+[17-Jun-2024 23:29:22 Europe/Bucharest] PHP Fatal error:  Uncaught TypeError: strip_tags(): Argument #1 ($string) must be of type string, array given in /home/r118530wood/federica.ecomdoo.eu/classes/db/Db.php:795
+Stack trace:
+#0 /home/r118530wood/federica.ecomdoo.eu/classes/db/Db.php(795): strip_tags()
+#1 /home/r118530wood/federica.ecomdoo.eu/config/alias.php(47): DbCore->escape()
+#2 /home/r118530wood/federica.ecomdoo.eu/modules/lot_exportergoogle/LotFeed.php(291): pSQL()
+#3 /home/r118530wood/federica.ecomdoo.eu/modules/lot_exportergoogle/LotFeed.php(450): LotFeed->getproductpath()
+#4 /home/r118530wood/federica.ecomdoo.eu/modules/lot_exportergoogle/LotFeed.php(382): LotFeed->generateCodeXML()
+#5 /home/r118530wood/federica.ecomdoo.eu/modules/lot_exportergoogle/controllers/front/ajax2.php(147): LotFeed->generateproductcode()
+#6 /home/r118530wood/federica.ecomdoo.eu/classes/controller/Controller.php(319): Lot_ExporterGoogleAjax2ModuleFrontController->initContent()
+#7 /home/r118530wood/federica.ecomdoo.eu/classes/Dispatcher.php(510): ControllerCore->run()
+#8 /home/r118530wood/federica.ecomdoo.eu/index.php(28): DispatcherCore->dispatch()
+#9 {main}
+  thrown in /home/r118530wood/federica.ecomdoo.eu/classes/db/Db.php on line 795
+[17-Jun-2024 23:30:02 Europe/Bucharest] PHP Warning:  Undefined array key 0 in /home/r118530wood/federica.ecomdoo.eu/modules/lot_exportergoogle/controllers/front/ajax.php on line 76
+[17-Jun-2024 23:33:27 Europe/Bucharest] PHP Warning:  Undefined array key 0 in /home/r118530wood/federica.ecomdoo.eu/modules/lot_exportergoogle/controllers/front/ajax.php on line 76
+[17-Jun-2024 23:34:38 Europe/Bucharest] PHP Warning:  Undefined array key 0 in /home/r118530wood/federica.ecomdoo.eu/modules/lot_exportergoogle/controllers/front/ajax.php on line 76
+[17-Jun-2024 23:36:12 Europe/Bucharest] PHP Warning:  Undefined array key 0 in /home/r118530wood/federica.ecomdoo.eu/modules/lot_exportergoogle/controllers/front/ajax.php on line 76
+[17-Jun-2024 23:36:42 Europe/Bucharest] PHP Warning:  Undefined array key 0 in /home/r118530wood/federica.ecomdoo.eu/modules/lot_exportergoogle/controllers/front/ajax.php on line 76
+[17-Jun-2024 23:37:24 Europe/Bucharest] PHP Warning:  Undefined array key 0 in /home/r118530wood/federica.ecomdoo.eu/modules/lot_exportergoogle/controllers/front/ajax.php on line 76

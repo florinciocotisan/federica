@@ -1,0 +1,263 @@
+/*
+body {
+    background:  rgba(3, 2, 43, 1) !important;
+    color: #fff;
+}
+*/
+
+#wrapper {
+    background: transparent !important;
+}
+
+section#wrapper {   
+    background: rgba(3, 2, 43, 1) !important;
+}
+
+.breadcrumb a, .breadcrumb span {
+    color: #fff !important;
+}
+
+section#wrapper header.page-header { 
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.password-strength-feedback, .form-control-comment {
+    display: none !important;
+}
+
+
+
+header {
+    background: transparent !important;
+    box-shadow: none !important;
+    padding-top: 50px !important;
+}
+
+#header, #header .header-top {
+    background: transparent !important;
+}
+
+#_desktop_logo {
+    width: 100%;
+    text-align: center;
+        display: block !important;
+}
+
+#_desktop_logo img {
+    width: 300px !important;
+    height: auto !important;
+}
+
+body#index p.intro {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 3rem;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+body#index p.intro b {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+body#index .login {
+    margin-bottom: 30px;
+}
+
+body#index .subscribe button {
+    background: #da2032;
+}
+
+body#index .page-home button {
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+
+
+body#index .login button a, body#index .subscribe button a {
+    color: #fff;
+    font-weight: 600;
+}
+
+section.page-home {
+    margin-bottom: 100px;
+}
+
+footer#footer {
+    text-align: center;
+    padding-top: 0px;
+}
+
+@media (min-width:748px) {
+    section.page-home ul {
+        width: 550px;
+        margin-left: calc(50% - 225px);
+    }
+    
+    body#index .login {
+        text-align: right;
+    }
+    
+    body#index .subscribe{
+        text-align: left;
+    }
+    
+}
+
+section.page-home ul li {
+    font-weight: 600;
+    color: #fff;
+}
+
+
+#history_progress {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fff;
+    height: auto;
+    overflow: visible;
+    display: none;
+    position: relative;
+    float: left;
+}
+
+#history_progress .content {
+    width: 500px;
+    margin-left: calc(50% - 250px);
+}
+
+
+#history_progress #myBar {
+    height: 2px;
+    position: relative;
+    background-color: #e54216 !important;
+    top: 4px;
+}
+
+
+#history_progress .milestone {
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 33%;
+    display: none;
+}
+
+#history_progress .milestone.active {
+    display: block;
+}
+
+#fourth_milestone {
+    margin-right: -160px;
+}
+    
+
+#history_progress .milestone .point {
+    color: #e54216;
+    background: #e54216;
+    border-color: #e54216;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    margin-left: -2px;
+} 
+
+#history_progress .milestone .up {
+    color: #000;
+    font-size: 13px;
+    font-weight: 550;
+    position: absolute;
+    margin-top: -35px;
+    left: -10px;
+}
+
+#history_progress .milestone .down {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    top: 2px;
+    left: -82px;
+}
+
+@media (max-width:747px) {
+
+    #history_progress .content {
+        width: 100%;
+        margin-left: 0px;
+        padding: 0px 40px;
+    }
+    
+    #history_progress .milestone .up {
+        font-size: 12px;
+        left: -10px;
+    }
+    
+    #history_progress .milestone .down {
+        font-size: 10px;
+        left: -45px;
+        line-height: normal;
+    }
+    
+    #history_progress .content {
+        padding: 0px 0px !important;
+    }
+    #history_progress .milestone {
+        width: 25% !important;
+    }
+    
+    #history_progress {
+        height: 100px !important;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 100%;
+    }
+    
+    #history_progress .milestone {
+        width: 30% !important;
+    }
+    
+    #history_progress #third_milestone.milestone .down {
+        left: -38px;
+    }
+    
+    #history_progress #fourth_milestone.milestone .down {
+        left: -25px !important;
+    }
+    
+    #history_progress #fourth_milestone {
+        width: auto !important;
+    }
+    
+    #history_progress #fourth_milestone .point {
+        margin-left: 25px !important;
+    }
+
+}
+
+
+@media (max-width:400px) {
+    
+    #history_progress {
+        height: 140px !important;
+    }
+    
+}
+
+@media (max-width:340px) {
+    
+    #history_progress .milestone .down {
+        font-size: 8px;
+        left: -40px;
+    }
+    
+    #fourth_milestone .down {
+        left: 17px !important;
+    }
+    
+}
